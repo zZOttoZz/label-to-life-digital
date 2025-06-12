@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 const Hero = () => {
   return <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-btl-50 to-btl-100 px-4">
@@ -9,10 +8,7 @@ const Hero = () => {
             <span className="gradient-text">tala för sig själv</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            BTL kombinerar NFC-teknik med snygga produkthemsidor – och skapar 
-            digitala upplevelser direkt på dina fysiska produkter.
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">BTL kombinerar NFC-teknik med snygga produkthemsidor som skapar digitala upplevelser direkt på dina fysiska produkter.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <Button size="lg" className="text-lg px-8 py-6 hover-scale bg-btl-800 hover:bg-btl-700">
