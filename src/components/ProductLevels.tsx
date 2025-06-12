@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -36,9 +35,7 @@ const ProductLevels = () => {
         "Allt från BTL Story",
         "Flera produkter & kampanjer",
         "Avancerad statistik",
-        "A/B-testning av innehåll", 
-        "Dedikerad kundansvarig",
-        "API-integration"
+        "Dedikerad kundansvarig"
       ],
       highlight: "Skalbar lösning",
       popular: false
