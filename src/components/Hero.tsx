@@ -1,17 +1,10 @@
-
 import { Button } from "@/components/ui/button";
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-btl-50 to-btl-100 px-4">
+  return <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-btl-50 to-btl-100 px-4">
       <div className="container max-w-6xl mx-auto text-center animate-fade-in">
         <div className="space-y-8">
           <div className="flex justify-center mb-8">
-            <img 
-              src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" 
-              alt="BTL - Behind the Label" 
-              className="h-20 md:h-24 w-auto"
-            />
+            <img src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" alt="BTL - Behind the Label" className="h-20 md:h-24 row-auto " />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
@@ -25,17 +18,10 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button 
-              size="lg" 
-              className="text-lg px-8 py-6 hover-scale bg-btl-800 hover:bg-btl-700"
-            >
+            <Button size="lg" className="text-lg px-8 py-6 hover-scale bg-btl-800 hover:bg-btl-700">
               Beställ demo-kit
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-8 py-6 hover-scale border-btl-300 text-btl-800 hover:bg-btl-50"
-            >
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 hover-scale border-btl-300 text-btl-800 hover:bg-btl-50">
               Se exempel
             </Button>
           </div>
@@ -62,8 +48,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
