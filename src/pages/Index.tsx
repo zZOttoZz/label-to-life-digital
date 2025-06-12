@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import NFCvsQR from "@/components/NFCvsQR";
 import ProductLevels from "@/components/ProductLevels";
 import WhyBTL from "@/components/WhyBTL";
 import Pricing from "@/components/Pricing";
@@ -15,6 +16,7 @@ const Index = () => {
       <main>
         <Hero />
         <HowItWorks />
+        <NFCvsQR />
         <ProductLevels />
         <WhyBTL />
         <Pricing />
