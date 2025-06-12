@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
+import ProductLevels from "@/components/ProductLevels";
+import WhyBTL from "@/components/WhyBTL";
+import Pricing from "@/components/Pricing";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <HowItWorks />
+        <ProductLevels />
+        <WhyBTL />
+        <Pricing />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };
