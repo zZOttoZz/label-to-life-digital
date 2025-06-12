@@ -10,7 +10,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" 
               alt="BTL - Behind the Label" 
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </div>
           

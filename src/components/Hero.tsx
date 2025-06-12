@@ -10,7 +10,7 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" 
               alt="BTL - Behind the Label" 
-              className="h-20 md:h-24 w-auto"
+              className="h-32 md:h-40 w-auto"
             />
           </div>
           
