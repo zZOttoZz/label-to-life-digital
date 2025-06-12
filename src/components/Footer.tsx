@@ -1,11 +1,9 @@
-
 const Footer = () => {
-  return (
-    <footer className="bg-btl-900 text-white py-16">
+  return <footer className="bg-btl-900 text-white py-16">
       <div className="container max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-2xl gradient-text mb-4">BTL</h3>
+            <h3 className="font-bold text-2xl gradient-text mb-4 text-slate-50">BTL</h3>
             <p className="text-btl-300 leading-relaxed">
               Behind the Label - Vi kopplar samman fysiska produkter med digitala upplevelser.
             </p>
@@ -43,8 +41,6 @@ const Footer = () => {
           <p>&copy; 2024 BTL - Behind the Label. Alla rättigheter förbehållna.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
