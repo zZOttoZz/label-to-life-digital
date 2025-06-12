@@ -3,17 +3,17 @@ const Pricing = () => {
   const priceItems = [
     {
       item: "NFC-tagg",
-      price: "från 3 kr/st",
+      price: "från 1 kr/st",
       description: "Priserna sjunker vid större volymer"
     },
     {
       item: "Produkthemsida", 
-      price: "fr. 500 kr",
+      price: "fr. 200 kr",
       description: "Engångsavgift per produktsida"
     },
     {
       item: "Hosting",
-      price: "50 kr/månad", 
+      price: "100 kr/månad", 
       description: "För hela produktsortimentet"
     }
   ];
