@@ -6,8 +6,12 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-lg border-b border-border z-50">
       <div className="container max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="font-bold text-2xl gradient-text">
-            BTL
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" 
+              alt="BTL - Behind the Label" 
+              className="h-10 w-auto"
+            />
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

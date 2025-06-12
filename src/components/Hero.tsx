@@ -6,6 +6,14 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-btl-50 to-btl-100 px-4">
       <div className="container max-w-6xl mx-auto text-center animate-fade-in">
         <div className="space-y-8">
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" 
+              alt="BTL - Behind the Label" 
+              className="h-20 md:h-24 w-auto"
+            />
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Få din produkt att{" "}
             <span className="gradient-text">tala för sig själv</span>
