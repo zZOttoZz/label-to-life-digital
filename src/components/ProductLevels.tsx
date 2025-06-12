@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -22,8 +23,7 @@ const ProductLevels = () => {
         "Allt från BTL Basic",
         "Skräddarsydd produkthemsida", 
         "Storytelling & design",
-        "Mobiloptimerad upplevelse",
-        "Grundläggande analytics"
+        "Mobiloptimerad upplevelse"
       ],
       highlight: "Storytelling i fokus",
       popular: true
