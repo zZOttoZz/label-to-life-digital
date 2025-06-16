@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/c4673fac-0aa8-4f1c-88bf-342d1df8ada7.png" 
               alt="BTL - Behind the Label" 
-              className="h-14 w-auto"
+              className="h-10 sm:h-12 md:h-14 w-auto"
             />
           </div>
           
@@ -26,9 +27,12 @@ const Header = () => {
             </a>
           </nav>
           
-          <Button className="bg-btl-800 hover:bg-btl-700">
-            Kom igång
-          </Button>
+          <div className="flex items-center space-x-4">
+            <Button className="hidden sm:flex bg-btl-800 hover:bg-btl-700">
+              Kom igång
+            </Button>
+            <MobileMenu />
+          </div>
         </div>
       </div>
     </header>
